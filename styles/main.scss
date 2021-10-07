@@ -1,0 +1,241 @@
+@import "./partials/_vars";
+
+    nav {
+        img {
+        width: 300px;
+            }
+        .nav-item {
+            font-size: 20px;
+        }
+        }
+
+/* ------INDEX BOOTSTRAP------ */
+/* SECCIÓN HERO BEM*/
+.hero {
+    background-image: url("../img/minimal.jpg");
+    background-position: center;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+
+    &__h1 {
+        font-size: 40px;
+        text-align: center;
+
+    }
+
+    &__btm a:hover {
+        width: 300px;
+        height: 50px;
+    }
+}
+
+  /* SECCIÓN LOGOS BEM*/
+.Logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color1;
+    
+    &__img {
+        width: 160px;
+        margin: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+    /* SECCIÓN FUNDAMENTOS BEM*/
+ .seccionFundamentos {
+    justify-content: center;
+    align-items: center;
+    background-color: $color2;
+    padding: 50px;
+
+    &__h2 {
+        font-size: 35px;
+    }
+
+    &__p {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    &__img {
+        width: 400px;
+    }
+}
+
+.seccionFundamentos article a:hover {
+    width: 200px;
+    height: 40px;
+}
+
+/* SECCIÓN TESTIMONIOS BEM*/
+.testimonios {
+    margin: 40px;
+    align-self: center;
+    align-items: center;
+
+    &__img {
+        width: 120px;
+        align-items: center;
+}
+    &__p {
+        font-size: medium;
+    }
+}
+
+/* SECCIÓN FOOTER*/
+footer {
+padding: 100px;
+background-color: $color3;}
+
+
+/* ------NOSOTROS BOOTSTRAP------ */
+.nosotros {
+        text-align: center;
+        
+        &__titulo {
+           text-align: center;
+           margin-top: 20px;
+           margin-bottom: 50px;
+       
+        }
+       
+        &__p {
+            text-align: center;
+            align-items: center;
+            margin: 50px;
+           
+        }
+
+        &__valor {
+           margin-bottom: 20px;
+       
+        }
+       }
+
+
+/* ------PROCESO BOOTSTRAP------ */
+/* SECCIÓN NUESTRO PROCESO BEM*/
+.proceso {
+ text-align: center;
+ 
+ &__titulo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+ }
+
+ &__paso {
+    margin-bottom: 20px;
+
+ }
+
+ &__p {
+    margin: 50px;
+
+ }
+}
+
+/* SECCIÓN PREGUNTAS FRECUENTES*/
+.preguntas {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.accordion {
+    margin-bottom: 100px;
+}
+
+.accordion-item {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+/* ------SERVICIOS BOOTSTRAP------ */
+
+
+
+
+
+
+/* ANTIGUO GRID
+.contenedor {
+    margin: 10px, auto;
+   display: grid;
+ 
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(5, 1fr);
+}
+
+.proceso {
+   grid-column-start: 1;
+   grid-column-end: 5;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+*/
+
+
+    /* MEDIA QUERIES
+@media screen and (max-width: 768px) {
+    .proceso {
+        grid-column: 1 / -1;
+        background-color: blanchedalmond;
+    }
+    
+    .paso {
+        grid-column: 1 / -1;
+    }
+
+    .faq1 {
+        grid-column: 1 / -1;
+    }
+
+    .faq2 {
+        grid-column: 1 / -1;
+    }
+
+    .faq3 {
+        grid-column: 1 / -1;
+    }
+
+    .faq4 {
+        grid-column: 1 / -1;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .proceso {
+        grid-column: 1 / -1;
+        background-color: blue;
+        color: white;
+        text-align: center;
+    }
+    
+    .paso {
+        grid-column: 1 / -1;
+    }
+
+    .faq1 {
+        grid-column: 1 / -1;
+    }
+
+    .faq2 {
+        grid-column: 1 / -1;
+    }
+    
+    .faq3 {
+        grid-column: 1 / -1;
+    }
+
+    .faq4 {
+        grid-column: 1 / -1;
+    }
+}
+ */

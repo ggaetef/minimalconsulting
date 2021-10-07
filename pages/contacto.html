@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contáctanos. Somos una Agencia de Marketing Digital de Resultados. Toma el control de tu empresa con el acompañamiento de Marketing de Resultados">
+    <meta name="keywords" content="Marketing Digital, agencia marketing, marketing contenidos, redes sociales, google ads, publicidad online, publicidad en linea, anuncios en linea, SEO, Facebook ads, email marketing, estrategia digital, digital marketing, marketing b2b, servicios de marketing digital, mejor agencia marketing en barcelona, agencia marketing barcelona, consultora de marketing, marketing">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+       <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <!--CSS Estilos-->
+        <link rel="stylesheet" href="../styles/main.css">
+        <title>Contacto</title>
+ </head>
+ <body>
+     <header>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="logo Minimal Consulting"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./proceso.html">Proceso</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>                  </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <!--Formulario-->
+        <form action="" method="get">
+            <fieldset>
+               <legend>Formulario Contacto</legend>
+               <!--Nombre-->
+               <label for="Nombre">
+                   <span>Nombre</span>
+                   <input type="text" id="Nombre" placeholder="Escribe tu nombre">
+               </label>
+               <!--Apellido-->
+               <label for="Apellido">
+                    <span>Apellido</span>
+                    <input type="text" id="Apellido" placeholder="Escribe tu apellido">
+               </label>
+               <br>
+               <br>
+               <!--Email-->
+               <label for="email">
+                     <span>Email</span>
+                     <input type="email" id="email" placeholder="Escribe tu email">
+               </label>
+               <br>
+               <br>
+            <!--Fecha-->
+            <label for="Fecha">
+                <span>Fecha de Contacto</span>
+               <input type="date"id="Fecha">
+            </label>
+            <br>
+            <br>
+            <!--Radio Sexo-->
+            <label for="Hombre">Hombre</label>
+           <input type="radio" name="sexo" id="Hombre" value="Hombre">
+           <label for="Grande">Mujer</label>
+           <input type="radio" name="sexo" id="Mujer" value="Mujer">
+           <label for="Chico">Prefiero no decir</label>
+           <input type="radio" name="sexo" id="No" value="No">
+           <br>
+           <br>
+           <!--Servicio-->
+           <div>
+            <select name="servicios" id="">
+                 <span>¿Que servicio necesitas?</span>
+                 <option value="estrategia">Estrategia Digital</option>
+                 <option value="traficoWeb">Tráfico Web</option>
+                 <option value="diseno">Diseño Web</option>
+             </select>
+             </div>
+            <br>
+            <br>
+           <!--Checkbox-->
+           <label for="acepta"></label>
+           <span>Acepta los Terminos y Condiciones</span>
+           <input type="checkbox" name="acepta" id="acepta" value="1">
+           <br>
+           <br>
+            <!--Reset-->
+             <input type="reset" value="Limpiar Formulario">
+            <!--Botón-->
+            <input type="submit" value="Enviar Formulario">
+            </fieldset>
+        </form>
+    </main>
+<footer>
+    <h5>Políticas y Cookies</h5>
+</footer>
+ <!--Bootstrap JavaScript-->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
