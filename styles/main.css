@@ -137,10 +137,12 @@ nav .nav-item {
       -ms-flex-align: center;
           align-items: center;
   margin: 50px;
+  font-size: 16px;
 }
 
 .nosotros__valor {
   margin-bottom: 20px;
+  font-size: 14px;
 }
 
 /* ------PROCESO BOOTSTRAP------ */
